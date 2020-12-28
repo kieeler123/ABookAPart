@@ -1,0 +1,22 @@
+@media screen and (max-width:768px){
+    section{width:100%; min-height: 600px;}
+    section .text, section .texts{width: calc(100% - 20px); text-align: center;}
+    h1{text-align: center;}
+    .mes{width: 100%;}
+    section.sec2{min-height: 800px;}
+    section.sec2 .text{width: calc(100% - 20px);}
+    section.sec2 .texts{text-align: center;}
+    .bar.ba{width: calc(100% - 20px); margin-left: 0;}
+    .bar.ba .bI{width: 100%;}
+    .bar.ba .bI:nth-of-type(2) a{width: 10%; position: relative; right: 60px;}
+    section.sec3 p{width: 100%;}
+    section.sec3 .text:nth-of-type(2){width: 100%;}
+    section.sec4 .text{width: 100%;}
+    section.sec5 h1{text-align: left;}
+    section.sec5 .text:nth-of-type(3){clear: both;}
+    section.sec5 .text:nth-of-type(3)::before{display: none; margin: 0;}
+
+    footer .footerTop{width: calc(100% - 20px);}
+    footer .footerTop .text{margin-left:20px}
+    footer .footerTop .text:nth-of-type(1){width: 100%;}
+  }
