@@ -1,5 +1,5 @@
 @media screen and (max-width:768px){
-    section{width:100%; min-height: 600px;}
+    section{width:100%; min-height: 700px; padding: 20px 10px;}
     section .text, section .texts{width: calc(100% - 20px); text-align: center;}
     h1{text-align: center;}
     .mes{width: 100%;}

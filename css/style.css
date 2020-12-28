@@ -81,6 +81,7 @@ section{
   width: 50%;
   min-height: 300px;
   margin: 0 auto;
+  border-top: 1px solid black;
 }
 section.sec1{width: 100%;}
 section.sec1 .menu1 li{
@@ -190,8 +191,6 @@ section.sec1 .textbox p{
   margin: 50px auto;
 }
 section.sec2{
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
   min-height: 400px;
 }
 u{color: #007752;}
