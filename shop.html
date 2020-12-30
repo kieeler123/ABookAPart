@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="css/initial.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shorStyle.css">
+    <link rel="stylesheet" href="css/style980.css">
     <title></title>
   </head>
   <body>
@@ -12,7 +13,7 @@
       <header id="mainmenu">
         <div class="logo">
           <div class="img"></div>
-          <h1>A BOOK APART</h1>
+          <h1><a href="index.html">A BOOK APART</a></h1>
       </div>
       <ul class="menu1">
         <li v-for="list in mainMenu">
@@ -24,122 +25,170 @@
         <li><a href="#">cart</a></li>
       </ul>
       </header>
-      <section class="sec1 sheet1">
-        <ul class="menu1">
-          <li v-for="list in mainMenu">
-            <a v-bind:href="list.href">{{list.name}}</a>
-          </li>
-        </ul>
-        </div>
-        <div class="bar">
-          <div class="bI"></div>
-          <div class="bI">
-            <span><u>Notify me</u> when<br> books are available</span>
+      <main>
+        <section class="sec1">
+          <ul>
+            <li><a href="#">books</a></li>
+            <li><a href="#">starter packs</a></li>
+            <li><a href="#">gears</a></li>
+            <li><a href="#">giftcards</a></li>
+          </ul>
+        </section>
+        <section class="sec2">
+          <h1>books</h1>
+          <div class="imgAll">
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-11_212x.png?v=1603205699img/ABA-cover-4_100x@3x.webp" alt="">
+              <h4>Donna Spencer</h4>
+              <h5>Presenting Design Work</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-33_212x.png?v=1598365557" alt="">
+              <h4>David Dylan Thomas</h4>
+              <h5>Design for Cognitive Bias</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-10_212x.png?v=1594738234" alt="">
+              <h4>Jason Garber</h4>
+              <h5>Practical Pair Programming</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-32_212x.png?v=1579299269" alt="">
+              <h4>Senongo Akpem</h4>
+              <h5>Cross-Cultural Design</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-31_212x.png?v=1569338957" alt="">
+              <h4>Yesenia Perez-Cruz</h4>
+              <h5>Expressive Design Systems</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-30_212x.png?v=1560252476" alt="">
+              <h4>Lara Hogan</h4>
+              <h5>Resilient Management</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-29_212x.png?v=1553027067" alt="">
+              <h4>Lisa Maria Marquis</h4>
+              <h5>Everyday Information Architecture</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-28_212x.png?v=1539110429" alt="">
+              <h4>Jason Grigsby</h4>
+              <h5>Progressive Web Apps</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-9-proof_212x.png?v=1538442861" alt="">
+              <h4>Scott Kubie</h4>
+              <h5>Writing for Designers</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-8_300x_2x_a4df8561-4762-4f7d-b4d3-78f61a98abb6_212x.png?v=1548453594" alt="">
+              <h4>Mat Marquis</h4>
+              <h5>Image Performance</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-27_212x.png?v=1532470792" alt="">
+              <h4>Tim Brown</h4>
+              <h5>Flexible Typesetting</h5>
+            </div>
+            <div class="imgs">
+              <img src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-26_212x.png?v=1522680500" alt="">
+              <h4>Jeremy Keith</h4>
+              <h5>Going Offline</h5>
+            </div>
           </div>
-          <div class="bI"></div>
-          <div class="bI"><a href="#">ADD</a></div>
-        </div>
-      </section>
-      <div class="mes">ONLINE Mobile First is available to <u>read for free.</u></div>
-      <section class="sec2">
-        <div class="text">
-          <p>Our industry’s long wait for the complete, strategic guide to mobile web design is finally over. Former Yahoo! design architect and co-creator of Bagcheck Luke Wroblewski knows more about mobile experience than the rest of us, and packs all he knows into this entertaining, to-the-point guidebook. Its data-driven strategies and battle tested techniques will make you a master of mobile—and improve your non-mobile design, too!</p>
-        </div>
-        <div class="texts">
-          <h3><a href="#">CONTENTS</a></h3>
-          <h4><a href="#">Part 1: Why Mobile First?</a></h4>
-          <ol>
-            <li><a href="#">Growth</a></li>
-            <li><a href="#">Constraints</a></li>
-            <li><a href="#">Capabilities</a></li>
-          </ol>
-          <h4><a href="#">Part 2: How to go Mobile</a></h4>
-          <ol>
-            <li><a href="#">Organization (Read this chapter online)</a></li>
-            <li><a href="#">Actions</a></li>
-            <li><a href="#">Inputs</a></li>
-            <li><a href="#">Layout</a></li>
-          </ol>
-        </div>
-      </section>
-      <section class="sec3">
-        <h1>RECOMMENDED WITH…</h1>
-        <div class="text">
-          <img src="img/ABA-cover-4_100x@3x.webp" alt="">
-          <svg xmlns="http://www.w3.org/2000/svg" height="192px" viewBox="0 0 24 24" width="110px"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
-          <img src="img/aba-cover-6_a810ec60-d08b-4203-bc4e-0386e8935602_100x@3x.webp" alt="">
-        </div>
-        <div class="text">
-          <h2>Responsive Web Design</h2>
-          <h3>by ETHAN MARCOTTE</h3>
-          <p>Harness the power in understanding principles and techniques of responsive web design, and learn how data-driven strategies can help you think mobile first.</p>
-        </div>
-        <h1>BUY BOTH AND SAVE UP TO 15%</h1>
-        <div class="text">
-          <div class="bar ba">
-            <div class="bI"></div>
-            <div class="bI"><a href="#">ADD</a></div>
-            <div class="bI"></div>
+        </section>
+        <section class="sec3">
+          <h1>starter packs</h1>
+          <div class="imgAll">
+            <div class="imgs">
+              <img class="pack-grid__image" src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-11_48x.png?v=1603205699" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-10_48x.png?v=1594738234" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-31_48x.png?v=1569338957" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/ABA-cover-12_48x.png?v=1463456298" alt="">
+              <h2>COLLABORATIVE DESIGN</h2>
+              <h4>Work better, together.</h4>
+            </div>
+            <div class="imgs">
+              <img class="pack-grid__image" src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-11_48x.png?v=1603205699" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-10_48x.png?v=1594738234" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-31_48x.png?v=1569338957" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/ABA-cover-12_48x.png?v=1463456298" alt="">
+              <h2>COMPASSIONATE DESIGN</h2>
+              <h4>Create kinder, more connected design.</h4>
+            </div>
+            <div class="imgs">
+              <img class="pack-grid__image" src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-11_48x.png?v=1603205699" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-10_48x.png?v=1594738234" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-31_48x.png?v=1569338957" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/ABA-cover-12_48x.png?v=1463456298" alt="">
+              <h2>DESIGN PROCESS</h2>
+              <h4>Your design process, advanced.</h4>
+            </div>
+            <div class="imgs">
+              <img class="pack-grid__image" src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-11_48x.png?v=1603205699" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-10_48x.png?v=1594738234" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-31_48x.png?v=1569338957" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/ABA-cover-12_48x.png?v=1463456298" alt="">
+              <h2>RESPONSIVE DESIGN</h2>
+              <h4>Get responsive with every project.</h4>
+            </div>
+            <div class="imgs">
+              <img class="pack-grid__image" src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-11_48x.png?v=1603205699" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-10_48x.png?v=1594738234" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-31_48x.png?v=1569338957" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/ABA-cover-12_48x.png?v=1463456298" alt="">
+              <h2>IMAGES AND ANIMATION</h2>
+              <h4>Make your site look great and move swiftly.</h4>
+            </div>
+            <div class="imgs">
+              <img class="pack-grid__image" src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-11_48x.png?v=1603205699" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-10_48x.png?v=1594738234" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-31_48x.png?v=1569338957" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/ABA-cover-12_48x.png?v=1463456298" alt="">
+              <h2>CONTENT STRATEGY</h2>
+              <h4>Corral your content strategy.</h4>
+            </div>
+            <div class="imgs">
+              <img class="pack-grid__image" src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-11_48x.png?v=1603205699" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-10_48x.png?v=1594738234" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-31_48x.png?v=1569338957" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/ABA-cover-12_48x.png?v=1463456298" alt="">
+              <h2>DESIGN BUSINESS</h2>
+              <h4>Manage, sell, and buy design like a pro.</h4>
+            </div>
+            <div class="imgs">
+              <img class="pack-grid__image" src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-11_48x.png?v=1603205699" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-briefs-cover-10_48x.png?v=1594738234" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-31_48x.png?v=1569338957" alt="">
+              <img class="pack-grid__image"  src="//cdn.shopify.com/s/files/1/0051/7692/products/ABA-cover-12_48x.png?v=1463456298" alt="">
+              <h2>FRONT-END FUNDAMENTALS</h2>
+              <h4>Essential languages, and then some.</h4>
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="sec4">
-        <h1>WHAT PEOPLE ARE SAYING</h1>
-        <div class="text">
-          <p>Luke doesn’t just rely on his wondrous wit and marvellous writing style to make an overwhelmingly convincing argument for designing the mobile experience first; he also hammers home all of his points with oodles and oodles of scrumptious data.</p>
-          <h3>—JEREMY KEITH</h3>
-          <i>Author, HTML5 for Web Designers</i>
-        </div>
-        <div class="text">
-          <p>This is the update to ‘Mobile Web Design’ I wish I’d written. It’s a concise opus filled to the brim with great examples of mobile design, supported by sound advice, research, and tips from Mr. W himself.</p>
-          <h3>—CAMERON MOLL</h3>
-          <i>Founder, Authentic Jobs</i>
-        </div>
-        <div class="text">
-          <p>By coupling insightful design patterns to common-sense principles, Luke’s ‘Mobile First’ is the beginning of a quiet revolution, its title the rallying cry that should be on the lips of every web designer.</p>
-          <h3>—ETHAN MARCOTTE</h3>
-          <i>Author, Responsive Web Design</i>
-        </div>
-      </section>
-      <section class="sec5">
-        <h1>ABOUT THE AUTHOR</h1>
-        <div class="text">
-          <img src="img/author-luke-wroblewski.webp" alt="">
-        </div>
-        <div class="text">
-          <p><u>Luke Wroblewski</u> is a product director at Google. He was formerly the CEO and cofounder of Polar and the Chief Product Officer and cofounder of <u>Bagcheck.</u> Luke is the author of three popular web design books (Mobile First, <u>Web Form Design</u>, and <u>Site-Seeing: A Visual Approach to Web Usability</u> ) in addition to many articles about digital product design and strategy. He founded <u>LukeW Ideation & Design</u> , a product strategy and design consultancy. He is also a top-rated speaker at conferences and companies around the world, and a cofounder and former board member of the Interaction Design Association (IxDA).</p>>
-        </div>
-        <h1>ABOUT THE AUTHOR</h1>
-        <div class="text">
-          <ol>
-            <li><a href="#"> <strong>ISBN:</strong> 978-1-937557-02-7</a></li>
-            <li><a href="#"> <strong>Paperback:</strong> 123 pages</a></li>
-            <li><a href="#"><strong>Published:</strong> Oct 18, 2011</a></li>
-            <li><a href="#"><strong>Also available in:</strong> <u>Chinese, French, Korean, Russian</u></a></li>
-          </ol>
-        </div>
-      </section>
-      <section class="sec6">
-        <h1>ALSO FROM A BOOK APART</h1>
-        <div class="text">
-          <img src="img/ABA-cover-15_a625ad39-3b8e-4d26-b626-88899794cd29_100x@3x.webp" alt="">
-          <h2>Responsive Design: Patterns & Principles</h2>
-          <i>by ETHAN MARCOTTE</i>
-          <a href="#">BUY</a>
-        </div>
-        <div class="text">
-          <img src="img/aba-cover-31_100x@3x.webp" alt="">
-          <h2>Responsive Design: Patterns & Principles</h2>
-          <i>by ETHAN MARCOTTE</i>
-          <a href="#">BUY</a>
-        </div>
-        <div class="text">
-          <img src="img/aba-briefs-cover-7_07fe9ea6-2b1c-4041-a973-3d3e60f28032_100x@3x.webp" alt="">
-          <h2>Responsive Design: Patterns & Principles</h2>
-          <i>by ETHAN MARCOTTE</i>
-          <a href="#">BUY</a>
-        </div>
-      </section>
+        </section>
+        <section class="sec4">
+          <h1>gears</h1>
+          <div class="imgs">
+            <img src="//cdn.shopify.com/s/files/1/0051/7692/products/mug-4-1x1_c04cd591-4848-43f9-a2ae-941c5fb5a96c_212x.jpg?v=1604697986" alt="">
+            <h5>The *10* Mug</h5>
+          </div>
+          <div class="imgs">
+            <img src="//cdn.shopify.com/s/files/1/0051/7692/products/tote-colors-1x1_212x.jpg?v=1604952210" alt="">
+            <h5>The *10* Tote Bag</h5>
+          </div>
+          <div class="imgs">
+            <img src="//cdn.shopify.com/s/files/1/0051/7692/products/towel-1-sq_66af1282-676a-4537-8deb-765974b20769_212x.jpg?v=1599172529" alt="">
+            <h5>The *10* Towel</h5>
+          </div>
+        </section>
+        <section class="sec5">
+          <div class="imgs">
+            <h3>GIFT CARDS</h3>
+          </div>
+        </section>
+      </main>
       <footer>
         <div class="footerTop">
           <div class="text">

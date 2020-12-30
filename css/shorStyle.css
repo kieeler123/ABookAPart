@@ -1,15 +1,295 @@
-section.sheet1{width: 100%;}
-section.sheet1 .menu1{
+@charset "UTF-8";
+ul, ol{list-style: none;}
+a{text-decoration: none; color: black;}
+header{
   width: 100%;
-  height: 50px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+header .logo{
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+header .logo .img{
+  width: 32px;
+  height: 32px;
+  position: relative;
+  left: 10px;
+  top: calc(50% - 15px);
+  background: url('../img/bg_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+header .logo h1{
+  font-size: 30px;
+  position: relative;
+  margin-top: -15px;
+  margin-left: 53px;
+}
+
+header .menu1{
+  width: 70%;
+  height: 100%;
+  float: right;
+  background:skyblue;
+}
+header .menu1 li{
+  display: inline-block;
+  position: relative;
+  top: calc(50% - 15px);
+}
+header .menu1 li a{
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+}
+header .menu1 li:nth-of-type(1) a{
+  border-bottom: 3px solid gainsboro;
+}
+header .menu1 li a:hover{
+  border-bottom: 3px solid white;
+}
+header .menu2{
+  float: right;
+  position: relative;
+  top: -50%;
+  margin-right: 20px;
+}
+header .menu2 li{
+  display: inline-block;
+  position: relative;
+  top: 50%;
+}
+header .menu2 li a{
+  font-size: 22px;
+  color: white;
+}
+header .menu2 li a:hover{
+  font-size: 22px;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+section{
+  margin-bottom: 50px;
+  width: 50%;
+  min-height: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+section h1{
+  color: #997e10;
+  text-align: center;
+  font-size: 50px;
+  padding: 30px 0;
+}
+section h2{
+  color: #997e10;
+  font-size: 25px;
+  padding: 10px 0;
+  border-bottom: 1px solid darkgrey;
+}
+section h4{
+  cursor: pointer;
+}
+section h5:hover{
+  color: darkgrey;
+  transition: 1s;
+  cursor: pointer;
+}
+section .imgAll{
+  margin-top: 50px;
+}
+section .imgs:hover img, section.sec5 .imgs:hover{
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition: 1s;
+}
+section .imgs img{
+  width: 100%;
+  height: 100%;
+}
+section .imgs h4{
+  color: darkgrey;
+  padding: 10px 0;
+}
+section.sec1{
+  min-height: 100px;
+}
+section.sec1 ul{
   margin: 0 auto;
 }
-section.sec1 .menu1 li{
+section.sec1 ul li{
+  float: left;
   width: 25%;
-  display: inline-block;
 }
-section.sec1 .menu1 li a{
-  font-size: 50px;
+section.sec1 ul li a{
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
   color: black;
+  font-size: 30px;
+  line-height: 100px;
+}
+section.sec2 .imgs{
+  width: 14%;
+  height: 14%;
+  float: left;
+}
+section.sec2 .imgs:nth-of-type(1),section .imgs:nth-of-type(7){
+  margin-left: 0;
+}
+section.sec3 .imgs{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+section.sec4 .imgs{
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 5%;
+}
+section.sec4 .imgs:nth-of-type(3){
+  margin-right: 0%;
+}
+
+section.sec5 .imgs{
+  width: 100%;
+  min-height: 400px;
+  margin-top: 100px;
+  background-image: url("//cdn.shopify.com/s/files/1/0051/7692/files/gift-card-shop-page_1320x.progressive.jpg?v=1568910392");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section.sec5 .imgs h3{
   position: relative;
+  top: 300px;
+  left: 50px;
+  z-index: 500;
+  font-size: 50px;
+  color: white;
+}
+section.sec5 .imgs:hover h3{
+  top: 280px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.pack-grid__image{
+  border: 1px solid #595959;
+  height: auto;
+  max-width: 16.8%;
+  transition: transform 0.35s ease-in-out;
+  width: 50px;
+}
+
+footer{
+  width: 100%;
+  height: 300px;
+  background-color: #f6f5ea;
+}
+footer .footerTop{
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+footer .footerTop u{
+  color: gray;
+}
+footer .footerTop .text{
+  width: calc(20% - 20px);
+  height: 200px;
+  line-height: 50px;
+  float: left;
+  line-height: 50px;
+  margin-right: 10px;
+}
+footer .footerTop .text input{
+  width: 70%;
+  height: 20px;
+}
+footer .footerTop .text button{
+  width: 20%;
+  height: 30px;
+}
+input, button{margin-top: -10px;}
+footer .footerTop .text:nth-of-type(1){
+  width: 40%;
+}
+footer .footerTop .text:nth-of-type(2){
+  width: 30%;
+}
+footer .footerTop .text:nth-of-type(3){
+  position: relative;
+  left: 30px;
+}
+footer .footerTop .text:nth-of-type(4){
+  margin-right: -10%;
+}
+footer .footerTop .text h2{
+  left: 0;
+  text-transform: uppercase;
+}
+footer .footerTop .text h3{
+  margin-left: -20px;
+  position: relative;
+  left: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  opacity: .6;
+  font-size: 14px;
+}
+footer .footerTop .text h3:nth-of-type(1){
+  margin-top: 15px;
+}
+footer .footerTop .text p{
+  left: 0;
+  line-height: 15px;
+}
+footer .footerBottom{
+  width: 100%;
+  height: 200px;
+  background-color: #e8e5d4;
+}
+footer .footerBottom .text{
+  width: 50%;
+  margin: 0 auto;
+}
+footer .footerBottom .text b{
+  line-height: 200px;
+  float: left;
+  padding: 0 10px;
+  color: gray;
+}
+footer .footerBottom .text u{
+  position: relative;
+  top: 88px;
+  left: 20px;
+  color: gray;
+}
+footer .footerBottom .text u:before{
+  content: '';
+  display: block;
+  width: 4px;
+  height: 4px;
+  position: relative;
+  left: 290px;
+  top: 10px;
+  border: 2px;
+  border-radius: 100%;
+  background-color: grey;
+  opacity: .4;
+}
+footer .footerTop .text h3:hover, footer u:hover{
+  opacity: .4;
+  cursor: pointer;
+  transition: 1s;
 }
