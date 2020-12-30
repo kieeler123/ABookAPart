@@ -27,8 +27,7 @@ header .logo .img{
 header .logo h1{
   font-size: 30px;
   position: relative;
-  margin-top: -15px;
-  margin-left: 53px;
+  left: 80px;
 }
 
 header .menu1{
